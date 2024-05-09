@@ -8,7 +8,7 @@ Toda esta práctica se realizará en Docker.
 
 Para empezar esta práctica, lo primero que debemos realizar es el despliegue de Jenkins. Esto lo realizaremos desplegando el Docker con el siguiente comando:
 
-![despliegue de jenkins.png](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/despliegue_de_jenkins.png)
+![despliegue de jenkins.png](img/despliegue_de_jenkins.png)
 
 Fichero de despliegue Jenkins.
 
