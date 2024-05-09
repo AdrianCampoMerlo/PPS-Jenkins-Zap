@@ -66,13 +66,13 @@ USER Jenkins
 
 Una vez tenemos desplegado nuestro Juice, lo siguiente será el despliegue de Docker a escanear, para esta práctica hemos utilizado un Docker de JuiceShop.
 
-![despliegue juice.png](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/despliegue_juice.png)
+![despliegue juice.png](img/despliegue_juice.png)
 
 ### Creación de tarea pipeline
 
 Dentro de nuestro Jenkins, en el menú lateral izquierdo, seleccionamos nueva tarea.
 
-![1.png](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/1.png)
+![1.png](img/1.png)
 
 Dentro de la creación tenemos que realizar los siguientes pasos:
 
@@ -80,11 +80,11 @@ Dentro de la creación tenemos que realizar los siguientes pasos:
 2. Indicamos que queremos crear un pipeline
 3. Seleccionamos OK para continuar.
 
-![Untitled](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/Untitled.png)
+![Untitled](img/Untitled.png)
 
 Ahora dentro del aparatado pipeline, copiaremos el código de nuestro pipeline.
 
-![3.png](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/3.png)
+![3.png](img/3.png)
 
 Ahora le mostraremos el código de nuestro pipeline comentado con lo que hace cada “stage” del mismo:
 
@@ -243,22 +243,22 @@ pipeline {
 
 Una vez terminado esto, pulsamos “Construir ahora” en el menú lateral izquierdo para comenzar el despliegue.
 
-![4.png](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/4.png)
+![4.png](img/4.png)
 
 Podemos observar como se van completando las “stages” de nuestro proyecto.
 
-![Untitled](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/Untitled%201.png)
+![Untitled](img/Untitled%201.png)
 
 Una vez completada la tarea, podemos irnos a la misma y dentro del workspace podemos encontrar el fichero de reporte ya copiado a nuestro servicio Jenkins.
 
-![6.png](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/6.png)
+![6.png](img/6.png)
 
-![7.png](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/7.png)
+![7.png](img/7.png)
 
 Aquí tendríamos el archivo “report.xml” resultante del escaneo.
 
-![Untitled](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/Untitled%202.png)
+![Untitled](img/Untitled%202.png)
 
 Una vez terminada la primera ejecución, el botón de “Construir ahora” pasará a ser “Build with Parameters”. Esto nos dejará cambiar el tipo de escaneo, la dirección IP del target e incluso dónde queremos guardar el reporte.
 
-![Untitled](PPS%20Jenkins%20-%20Escaneo%20ZAP%20fb1eecfb82a74eafa1f764b4ef08b4d4/Untitled%203.png)
+![Untitled](img/Untitled%203.png)
