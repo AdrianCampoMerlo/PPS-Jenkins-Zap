@@ -80,9 +80,9 @@ Dentro de la creación tenemos que realizar los siguientes pasos:
 2. Indicamos que queremos crear un pipeline
 3. Seleccionamos OK para continuar.
 
-![Untitled](img/Untitled.png)
+![Untitled](img/Untitled.png)  
 
-Ahora dentro del aparatado pipeline, copiaremos el código de nuestro pipeline.
+Una vez dentro de la tarea creada, nos dirigimos al aparatado pipeline (1), depués deberemos copiar el código de nuestro pipeline en su respectivo lugar (2).
 
 ![3.png](img/3.png)
 
