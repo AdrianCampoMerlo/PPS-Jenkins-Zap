@@ -10,7 +10,7 @@ Para empezar esta práctica, lo primero que debemos realizar es el despliegue de
 
 ![despliegue de jenkins.png](img/despliegue_de_jenkins.png)
 
-Fichero de despliegue Jenkins.
+[Fichero de despliegue Jenkins.](Archivos/jenkins.yml)
 
 ```yaml
 version: '3.9'
@@ -46,7 +46,7 @@ networks:
   default:
 ```
 
-Fichero Dockerfile.
+[Fichero Dockerfile.](Archivos/Dockerfile)
 
 ```docker
 # https://github.com/jenkinsci/docker/blob/master/README.md
@@ -86,7 +86,7 @@ Una vez dentro de la tarea creada, nos dirigimos al aparatado pipeline (1), depu
 
 ![3.png](img/3.png)
 
-Ahora le mostraremos el código de nuestro pipeline comentado con lo que hace cada “stage” del mismo:
+Ahora le mostraremos el código de nuestro [pipeline](Archivos/pipeline comentada) comentado con lo que hace cada “stage” del mismo:
 
 ```groovy
 pipeline {
